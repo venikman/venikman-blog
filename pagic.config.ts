@@ -1,5 +1,5 @@
 export default {
-  srcDir: "src",
+  srcDir: "venikman-blog",
   theme: "blog",
   plugins: ["blog"],
   title: "Venikman's world",
@@ -12,4 +12,16 @@ export default {
       twitter: "venik_man",
     },
   },
+  nav: [
+    {
+      text: "Home",
+      link: "/",
+      icon: "czs-home-l",
+    },
+    {
+      text: "Test tsx",
+      link: "/test_tsx.html",
+      icon: "czs-sun-l",
+    },
+  ],
 };
