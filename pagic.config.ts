@@ -1,5 +1,5 @@
 export default {
-  srcDir: "venikman-blog",
+  srcDir: "src",
   theme: "blog",
   plugins: ["blog"],
   title: "Venikman's world",
