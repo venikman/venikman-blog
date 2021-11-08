@@ -25,7 +25,7 @@ export default {
     'contributors': [
         "Stanislau"
     ],
-    'date': "2021-11-08T02:07:16.000Z",
+    'date': "2021-11-08T02:36:04.000Z",
     'updated': null,
     'excerpt': "",
     'cover': undefined,

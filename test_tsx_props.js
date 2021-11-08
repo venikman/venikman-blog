@@ -59,7 +59,7 @@ export default {
             port: 8000,
             root: '/',
             serve: false,
-            srcDir: 'venikman-blog',
+            srcDir: 'src',
             theme: 'blog',
             title: 'Venikman\'s world',
             watch: false
