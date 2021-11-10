@@ -2,12 +2,12 @@ export default {
   srcDir: "src",
   theme: "blog",
   plugins: ["blog"],
-  title: "Venikman's world",
+  title: "Stanislau Venikman Niadbailau blog",
   description: "My thoughts about everything I do.",
   blog: {
     root: "/posts/",
     social: {
-      github: "venikman/venikman-blog",
+      github: "venikman",
       email: "nedbailov3754256@gmail.com",
       twitter: "venik_man",
     },
