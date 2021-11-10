@@ -18,6 +18,23 @@ export default {
         "isPost": false,
         "posts": [
             {
+                "pagePath": "posts/RPNC.md",
+                "title": "RPNC",
+                "link": "posts/RPNC.html",
+                "date": "2021-11-09T00:00:00.000Z",
+                "updated": null,
+                "author": "Stanislau",
+                "contributors": [
+                    "Stanislau"
+                ],
+                "tags": [
+                    "english",
+                    "story",
+                    "haskell"
+                ],
+                "excerpt": "Reverse Polish notation calculator This is another way to do calculation. Even now some of modern calculators support this notation. But where I have learned it? Haskell! Yes, by reading book about Haskell I wa..."
+            },
+            {
                 "pagePath": "posts/first.md",
                 "title": "Beginning",
                 "link": "posts/first.html",
@@ -38,10 +55,14 @@ export default {
         "tags": [
             {
                 "name": "english",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "story",
+                "count": 2
+            },
+            {
+                "name": "haskell",
                 "count": 1
             }
         ]
