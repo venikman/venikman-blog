@@ -25,13 +25,25 @@ export default {
     'contributors': [
         "Stanislau"
     ],
-    'date': "2021-11-08T02:36:04.000Z",
+    'date': "2021-11-10T02:31:10.000Z",
     'updated': null,
     'excerpt': "",
     'cover': undefined,
     'blog': {
         "isPost": false,
         "posts": [
+            {
+                "pagePath": "posts/RPNC.md",
+                "title": "RPNC",
+                "link": "posts/RPNC.html",
+                "date": "2021-11-10T02:31:10.000Z",
+                "updated": null,
+                "author": "Stanislau",
+                "contributors": [
+                    "Stanislau"
+                ],
+                "excerpt": "Reverse Polish notation calculator This is another way to do calculation. Even now some of modern calculators support this notation. But where I have learned it? Haskell! Yes, by reading book about Haskell I wa..."
+            },
             {
                 "pagePath": "posts/first.md",
                 "title": "Beginning",

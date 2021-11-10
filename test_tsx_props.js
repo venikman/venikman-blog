@@ -11,7 +11,7 @@ export default {
                 root: '/posts/',
                 social: {
                     email: 'nedbailov3754256@gmail.com',
-                    github: 'venikman/venikman-blog',
+                    github: 'venikman',
                     twitter: 'venik_man'
                 }
             },
@@ -61,7 +61,7 @@ export default {
             serve: false,
             srcDir: 'src',
             theme: 'blog',
-            title: 'Venikman\'s world',
+            title: 'Stanislau Venikman Niadbailau blog',
             watch: false
         }, content: null, footer: React.createElement("footer", null,
             "Powered by\u00A0",
@@ -77,6 +77,18 @@ export default {
     'blog': {
         "isPost": false,
         "posts": [
+            {
+                "pagePath": "posts/RPNC.md",
+                "title": "RPNC",
+                "link": "posts/RPNC.html",
+                "date": "2021-11-10T02:31:10.000Z",
+                "updated": null,
+                "author": "Stanislau",
+                "contributors": [
+                    "Stanislau"
+                ],
+                "excerpt": "Reverse Polish notation calculator This is another way to do calculation. Even now some of modern calculators support this notation. But where I have learned it? Haskell! Yes, by reading book about Haskell I wa..."
+            },
             {
                 "pagePath": "posts/first.md",
                 "title": "Beginning",
