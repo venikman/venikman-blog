@@ -1,9 +1,9 @@
 import projectConfig from '/pagic.config.js';
 export default {
     config: { "root": "/", ...projectConfig, branch: 'master' },
-    'pagePath': "tags/haskell/",
+    'pagePath': "tags/thoughts/",
     'layoutPath': "archives/_layout.tsx",
-    'outputPath': "tags/haskell/index.html",
+    'outputPath': "tags/thoughts/index.html",
     'head': null,
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@17.0.2/umd/react.production.min.js" }),
@@ -12,27 +12,27 @@ export default {
     'footer': React.createElement("footer", null,
         "Powered by\u00A0",
         React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic")),
-    'title': "haskell",
+    'title': "thoughts",
     'content': null,
     'blog': {
         "isPost": false,
         "posts": [
             {
-                "pagePath": "posts/RPNC.md",
-                "title": "RPNC",
-                "link": "posts/RPNC.html",
-                "date": "2021-11-09T00:00:00.000Z",
+                "pagePath": "posts/LTS.md",
+                "title": "Long Term Support",
+                "link": "posts/LTS.html",
+                "date": "2021-11-14T00:00:00.000Z",
                 "updated": null,
                 "author": "Stanislau",
                 "contributors": [
                     "Stanislau"
                 ],
                 "tags": [
+                    "thoughts",
                     "english",
-                    "story",
-                    "haskell"
+                    "no_answer"
                 ],
-                "excerpt": "Reverse Polish notation calculator This is another way to do calculation. Even now some of modern calculators support this notation. But where I have learned it? Haskell! Yes, by reading book about Haskell I wa..."
+                "excerpt": "My work When we trying to hire people while we trying to sell idea that work with us is really great, one of our selling point is that we have ofter opportunity to start new projects. (we assume) That people do..."
             }
         ],
         "categories": [],

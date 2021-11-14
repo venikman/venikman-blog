@@ -78,6 +78,23 @@ export default {
         "isPost": false,
         "posts": [
             {
+                "pagePath": "posts/LTS.md",
+                "title": "Long Term Support",
+                "link": "posts/LTS.html",
+                "date": "2021-11-14T00:00:00.000Z",
+                "updated": null,
+                "author": "Stanislau",
+                "contributors": [
+                    "Stanislau"
+                ],
+                "tags": [
+                    "thoughts",
+                    "english",
+                    "no_answer"
+                ],
+                "excerpt": "My work When we trying to hire people while we trying to sell idea that work with us is really great, one of our selling point is that we have ofter opportunity to start new projects. (we assume) That people do..."
+            },
+            {
                 "pagePath": "posts/RPNC.md",
                 "title": "RPNC",
                 "link": "posts/RPNC.html",
@@ -115,7 +132,7 @@ export default {
         "tags": [
             {
                 "name": "english",
-                "count": 2
+                "count": 3
             },
             {
                 "name": "story",
@@ -123,6 +140,14 @@ export default {
             },
             {
                 "name": "haskell",
+                "count": 1
+            },
+            {
+                "name": "no_answer",
+                "count": 1
+            },
+            {
+                "name": "thoughts",
                 "count": 1
             }
         ]

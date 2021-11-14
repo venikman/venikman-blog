@@ -55,7 +55,7 @@ export default {
         "tags": [
             {
                 "name": "english",
-                "count": 2
+                "count": 3
             },
             {
                 "name": "story",
@@ -63,6 +63,14 @@ export default {
             },
             {
                 "name": "haskell",
+                "count": 1
+            },
+            {
+                "name": "no_answer",
+                "count": 1
+            },
+            {
+                "name": "thoughts",
                 "count": 1
             }
         ]
