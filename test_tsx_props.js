@@ -126,17 +126,33 @@ export default {
                     "story"
                 ],
                 "excerpt": "Hello there! I am starting this blogging journey because I am using Deno a tech stack for it and I want to try do some learning in public. I will be posting here anything that relevant for my personal grows. It..."
+            },
+            {
+                "pagePath": "posts/testing.md",
+                "title": "Testing",
+                "link": "posts/testing.html",
+                "date": "2021-11-07T00:00:00.000Z",
+                "updated": null,
+                "author": "Stanislau",
+                "contributors": [
+                    "Stanislau"
+                ],
+                "tags": [
+                    "english",
+                    "story"
+                ],
+                "excerpt": "Bla bala bablablalb"
             }
         ],
         "categories": [],
         "tags": [
             {
                 "name": "english",
-                "count": 3
+                "count": 4
             },
             {
                 "name": "story",
-                "count": 2
+                "count": 3
             },
             {
                 "name": "haskell",

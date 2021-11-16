@@ -39,11 +39,11 @@ export default {
         "tags": [
             {
                 "name": "english",
-                "count": 3
+                "count": 4
             },
             {
                 "name": "story",
-                "count": 2
+                "count": 3
             },
             {
                 "name": "haskell",

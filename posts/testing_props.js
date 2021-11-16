@@ -1,12 +1,12 @@
 import projectConfig from '/pagic.config.js';
 export default {
     config: { "root": "/", ...projectConfig, branch: 'master' },
-    'pagePath': "README.md",
-    'layoutPath': "_layout.tsx",
-    'outputPath': "index.html",
-    'title': "Hello world",
+    'pagePath': "posts/testing.md",
+    'layoutPath': "posts/_layout.tsx",
+    'outputPath': "posts/testing.html",
+    'title': "Testing",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1>Hello world</h1>'
+            __html: '<h1>Testing</h1>\n<p>Bla bala bablablalb</p>'
         } }),
     'head': null,
     'script': React.createElement(React.Fragment, null,
@@ -16,21 +16,28 @@ export default {
     'footer': React.createElement("footer", null,
         "Powered by\u00A0",
         React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic")),
-    'contentTitle': React.createElement("h1", { key: "0" }, "Hello world"),
+    'contentTitle': React.createElement("h1", { key: "0" }, "Testing"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: ''
+            __html: '<p>Bla bala bablablalb</p>'
         } }),
     'toc': null,
     'author': "Stanislau",
     'contributors': [
         "Stanislau"
     ],
-    'date': "2021-11-16T23:13:38.000Z",
+    'date': "2021-11-07T00:00:00.000Z",
     'updated': null,
-    'excerpt': "",
+    'excerpt': "Bla bala bablablalb",
     'cover': undefined,
+    'category': [
+        "personal"
+    ],
+    'tags': [
+        "english",
+        "story"
+    ],
     'blog': {
-        "isPost": false,
+        "isPost": true,
         "posts": [
             {
                 "pagePath": "posts/LTS.md",
